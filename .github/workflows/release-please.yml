@@ -13,7 +13,7 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - uses: leonardoce/release-please-action@sign-off-schema
+      - uses: leonardoce/release-please@sign-off-schema
         id: release
         with:
           release-type: go
